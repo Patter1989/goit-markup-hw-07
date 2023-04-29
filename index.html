@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles copy.css">
   </head>
   
   <body>
@@ -30,10 +30,63 @@
             <li class="contacts-item"><a class="contacts link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+
+        
+        <button class="mobile-menu-btn" data-menu-open type="button">
+          <svg class="mobile-menu-pic" width="32" height="22">
+            <use href="/images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-modal is-hidden" data-menu>
+        <button type="button" class="mobile-close-button btns" data-menu-close>
+            <svg class="close-button" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-button"></use>
+            </svg>
+        </button>
+        <nav>
+          <ul class="mobile-nav-menu list">
+              <li class="mobile-nav-item"><a class="mobile-nav-link link current" href="./index.html">Studio</a></li>
+              <li class="mobile-nav-item"><a class="mobile-nav-link link" href="./portfolio.html">Portfolio</a></li>
+              <li class="mobile-nav-item"><a class="mobile-nav-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="contact-network-wrap">
+          <address class="mobile-contact-us">
+            <ul class="list mobile-contacts-list">
+              <li class="mobile-contacts-item"><a class="mobile-number link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+              <li class="mobile-contacts-item"><a class="mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+          </address>
+          <ul class="mobile-network-list list">
+            <li class="social-network-item"><a href="" class="social-network-link link">
+              <svg class="network-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg></a>
+            </li>
+            <li class="social-network-item"><a href="" class="social-network-link link">
+              <svg class="network-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg></a> 
+            </li>
+            <li class="social-network-item"><a href="" class="social-network-link link">
+              <svg class="network-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a> 
+            </li>
+            <li class="social-network-item"><a href="" class="social-network-link link">
+              <svg class="network-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a> 
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main -->
     <main>
+
+
       <!-- hero -->
       <section class="hero">
         <div class="container">
@@ -41,6 +94,8 @@
           <button type="button" class="main-btn btns" data-modal-open>Order Service</button>
         </div>
       </section>
+
+
       <!-- section features -->
       <section class="features">
         <div class="container">
@@ -85,6 +140,9 @@
           </ul>
         </div>
       </section>
+
+
+
       <!-- section what are we doing -->
       <section class="project">
         <div class="container">
@@ -96,13 +154,16 @@
           </ul>
         </div>
       </section>
+
+
+
       <!-- section our team -->
       <section class="team">
         <div class="container">
           <h2 class="our-team-header">Our Team</h2>
           <ul class="our-team-list list">
             <li class="our-team-item">
-              <img class="teammate-img" src="./images/mark-guerrero1.jpg" alt="Mark Guerrero photo" width="264" height="260">
+              <img class="teammate-img" src="./images/mark-guerrero1.jpg" alt="Mark Guerrero photo" width="260" height="260">
               <div class="teammate-text">
                 <h3 class="teammate-name">Mark Guerrero</h3>
                 <p class="teammate-profession">Product Designer</p>
@@ -127,7 +188,7 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img class="teammate-img" src="./images/tom-ford2.jpg" alt="Tom Ford photo" width="264" height="260">
+              <img class="teammate-img" src="./images/tom-ford2.jpg" alt="Tom Ford photo" width="260" height="260">
               <div class="teammate-text">
                 <h3 class="teammate-name">Mark Guerrero</h3>
                 <p class="teammate-profession">Product Designer</p>
@@ -152,7 +213,7 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img class="teammate-img" src="./images/camila-garcia3.jpg" alt="Camila Garcia photo" width="264" height="260">
+              <img class="teammate-img" src="./images/camila-garcia3.jpg" alt="Camila Garcia photo" width="260" height="260">
               <div class="teammate-text">
                 <h3 class="teammate-name">Mark Guerrero</h3>
                 <p class="teammate-profession">Product Designer</p>
@@ -177,7 +238,7 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img class="teammate-img" src="./images/daniel-wilson4.jpg" alt="DanielWilson photo" width="264" height="260">
+              <img class="teammate-img" src="./images/daniel-wilson4.jpg" alt="DanielWilson photo" width="260" height="260">
               <div class="teammate-text">
                 <h3 class="teammate-name">Mark Guerrero</h3>
                 <p class="teammate-profession">Product Designer</p>
@@ -204,6 +265,9 @@
           </ul> 
         </div> 
       </section>
+
+
+
       <!-- section customers-->
       <section class="customers">
         <div class="container">
@@ -243,6 +307,9 @@
         </div>
       </section>
     </main>
+
+
+
     <!-- footer -->
     <footer class="end-page">
       <div class="container">
@@ -283,6 +350,9 @@
               </div>
             </form>
       </div>
+
+
+
       <!--Backdrop-->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -341,5 +411,6 @@
       </div>
     </footer>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
