@@ -1391,7 +1391,7 @@ align-items: center;
   /* =============OUR TEAM============ */
 
 .team {
-  max-width: 1158px;
+  max-width: 1440px;
 }
 
 .our-team-list {
@@ -1420,9 +1420,12 @@ align-items: center;
   /* =============FOOTER============ */
 
 .end-page {
-  max-width: 1158px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 100px 159px 100px 156px;
+}
+.end-page>.container {
+  flex-wrap: nowrap;
 }
 
 .footer-text{
@@ -1430,7 +1433,7 @@ align-items: center;
   max-width: 264px;
 }
 .footer-form {
-  margin-left: 80px;
+  margin-left: 70px;
 }
 
 .social-media {
