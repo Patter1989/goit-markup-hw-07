@@ -1212,6 +1212,10 @@ img {
 
 }
 
+.end-page-content>.logo {
+  text-align: left;
+}
+
 .social-media {
   margin-left: 24px;
 }
@@ -1221,7 +1225,7 @@ img {
 }
 
 .footer-form-header {
-  text-align: left;
+  /* text-align: left; */
 }
 
 .footer-input {
