@@ -1086,6 +1086,8 @@ img {
 /* =============FOOTER============ */
 
 .end-page {
+  display: flex;
+  justify-content: center;
   max-width: 1157px;
   margin: 0 auto;
   padding: 96px 108px;
@@ -1094,10 +1096,11 @@ img {
 
 /* .end-page>.container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
 } */
-
+/* .end-page>.container {
+  justify-content: center;
+} */
 
 .end-page-content>.logo {
   text-align: left;
@@ -1108,6 +1111,8 @@ img {
 }
 
 .footer-wrap {
+  width: 548px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1322,9 +1327,12 @@ align-items: center;
   margin: 0 auto;
   padding: 100px;
 }
-.end-page>.container {
+/* .end-page>.container {
+  justify-content: center;
+} */
+
+.footer-wrap {
   flex-wrap: nowrap;
-  align-items: center;
 }
 
 .footer-text{
