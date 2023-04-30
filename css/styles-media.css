@@ -192,7 +192,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 1.11px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -840,6 +840,10 @@ img {
 
 @media screen and (min-width: 428px) {
   
+.mobile-number {
+  font-weight: 700;
+  font-size: 36px;
+}
 
 /* =============HERO============ */
 
