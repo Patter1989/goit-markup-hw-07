@@ -38,10 +38,11 @@ img {
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -191,7 +192,7 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -215,7 +216,7 @@ img {
 
 .mobile-network-list {
   display: flex;
-  gap: 56px;
+  gap: 52px;
 }
 
 /* =============/HEADER============ */
@@ -362,7 +363,7 @@ img {
 }
 
 .our-team-list {
-  width: 280px;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -497,7 +498,7 @@ img {
 
 .icons-clients {
   fill: currentColor;
-  width: 104px;
+  maxwidth: 104px;
   height: 56px;
 }
 
@@ -508,7 +509,7 @@ img {
 /* =============FOOTER============ */
 
 .end-page {
-  width: 100%;
+  max-width: 100%;
   background-color: var(--navy-blue);
   padding: 96px 0;
 }
@@ -956,18 +957,11 @@ img {
 
 @media screen and (min-width: 428px) {
   
-  /* =============COMPONENTS============ */
-  
-  .container {
-    width: 428px;
-  }
-
-    /* =============COMPONENTS============ */
 
 /* =============HERO============ */
 
   .hero {
-    width: 428px
+    max-width: 428px
   }
 
 /* =============HERO============ */
@@ -977,7 +971,7 @@ img {
 /* =============OUR TEAM============ */
   
   .team {
-    width: 428px;
+    max-width: 428px;
     margin: 0 auto;
   }
 
@@ -987,12 +981,12 @@ img {
 /* =============FOOTER============ */
 
   .end-page {
-    width: 428px;
+    max-width: 428px;
     margin: 0 auto;
   }
 
   .footer-input {
-    width: 398px;
+    max-width: 398px;
     
   }
 }
@@ -1008,7 +1002,7 @@ img {
   /* =============COMPONENTS============ */
 
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 
   /* =============COMPONENTS============ */
@@ -1090,8 +1084,7 @@ img {
   /* =============HERO============ */
 
   .hero {
-    width: 768px;
-    height: 436px;
+    max-width: 768px;
     padding-top: 188px;
     padding-bottom: 188px;
   }
@@ -1129,12 +1122,12 @@ img {
 /* =============OUR TEAM============ */
 
 .team {
-  width: 768px;
+  max-width: 768px;
 }
 
 .our-team-list {
   justify-content: center;
-  width: 738px;
+  max-width: 768px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -1143,7 +1136,7 @@ img {
 
 .our-team-item {
   display: block;
-  width: 264px;
+  max-width: 264px;
 }
 
   .our-team-item+.our-team-item {
@@ -1159,7 +1152,7 @@ img {
 }
 
 .customers-item {
-  width: 168px;
+  max-width: 168px;
 }
 
 /* =============CUSTOMERS============ */
@@ -1167,7 +1160,7 @@ img {
 /* =============FOOTER============ */
 
 .end-page {
-  width: 768px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 96px 108px;
   
@@ -1199,7 +1192,7 @@ img {
 }
 
 .modal {
-  width: 408px;
+  max-width: 408px;
 }
 
 /* =============FOOTER============ */
@@ -1213,7 +1206,7 @@ img {
   /* =============COMPONENTS============ */
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
 }
 
   /* =============COMPONENTS============ */
@@ -1288,12 +1281,12 @@ align-items: center;
 /* =============HERO============ */
 
 .hero {
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
 }
 
 .main-header {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 0;
   font-size: 56px;
   line-height: 1.07;
@@ -1328,7 +1321,7 @@ align-items: center;
 }
 
 .menu-items-features {
-  width: 264px;
+  max-width: 264px;
 }
 
   /* =============FEATURES============ */
@@ -1359,7 +1352,7 @@ align-items: center;
   /* =============OUR TEAM============ */
 
 .team {
-  width: 1440px;
+  max-width: 1158px;
 }
 
 .our-team-list {
@@ -1380,7 +1373,7 @@ align-items: center;
 }
 
 .customers-item {
-  width: 168px;
+  max-width: 168px;
 }
 
   /* =============CUSTOMERS============ */
@@ -1388,14 +1381,14 @@ align-items: center;
   /* =============FOOTER============ */
 
 .end-page {
-  width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 100px 159px 100px 156px;
 }
 
 .footer-text{
   margin-bottom: 0;
-  width: 264px;
+  max-width: 264px;
 }
 .footer-form {
   margin-left: 80px;
@@ -1419,7 +1412,7 @@ align-items: center;
 }
 
 .footer-input {
-  width: 264px;
+  max-width: 264px;
   margin-bottom: 0;
 }
 
