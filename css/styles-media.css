@@ -464,6 +464,8 @@ img {
 /* =============CUSTOMERS============ */
 
 .customers {
+  display: flex;
+  justify-content: center;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -1332,7 +1334,9 @@ align-items: center;
 } */
 
 .footer-wrap {
+  width: 100%;
   flex-wrap: nowrap;
+  margin: 0;
 }
 
 .footer-text{
