@@ -120,7 +120,7 @@ img {
 .mobile-menu-btn {
   margin-left: auto;
   border: none;
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 
 .mobile-menu-pic {
@@ -191,7 +191,7 @@ img {
   display: block;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 32px;
   line-height: 1.11px;
   letter-spacing: 0.02em;
@@ -203,7 +203,7 @@ img {
   display: block;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -216,7 +216,8 @@ img {
 
 .mobile-network-list {
   display: flex;
-  gap: 52px;
+  /* justify-content: space-between; */
+  gap: 42px;
 }
 
 /* =============/HEADER============ */
@@ -1208,6 +1209,7 @@ img {
 .end-page>.container {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .social-media {
@@ -1422,10 +1424,11 @@ align-items: center;
 .end-page {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 100px 159px 100px 156px;
+  padding: 100px;
 }
 .end-page>.container {
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .footer-text{
