@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-media.css">
 </head>
 <body>
     <!-- header -->
@@ -18,17 +18,68 @@
             <nav class="main-nav">
                 <a class="logo link" href="index.html">web<span class="logo-studio">Studio</span></a>
                 <ul class="main-nav-menu list">
-                    <li class="main-nav-item"><a class="main-nav-link link" href="./index.html">Studio</a></li>
-                    <li class="main-nav-item"><a class="main-nav-link mark link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link mark link" href="./index.html">Studio</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="main-nav-item"><a class="main-nav-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="contact-us">
-                <ul class="list contacts-list">
-                    <li class="contacts-item"><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="contacts-item"><a class="contacts link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+        <address class="contact-us">
+            <ul class="list contacts-list">
+                <li class="contacts-item"><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+
+        
+        <button class="mobile-menu-btn" data-menu-open type="button">
+            <svg class="mobile-menu-pic" width="32" height="22">
+                <use href="./images/icons.svg#icon-hamburger"></use>
+            </svg>
+        </button>
+        </div>
+        <div class="mobile-modal is-hidden" data-menu>
+            <button type="button" class="mobile-close-button btns" data-menu-close>
+                <svg class="close-button" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-button"></use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="mobile-nav-menu list">
+                    <li class="mobile-nav-item"><a class="mobile-nav-link link current" href="./index.html">Studio</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link link" href="">Contacts</a></li>
                 </ul>
-            </address>
+            </nav>
+            <div class="contact-network-wrap">
+                <address class="mobile-contact-us">
+                    <ul class="list mobile-contacts-list">
+                        <li class="mobile-contacts-item"><a class="mobile-number link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+                        <li class="mobile-contacts-item"><a class="mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="mobile-network-list list">
+                    <li class="social-network-item"><a href="" class="social-network-link link">
+                        <svg class="network-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg></a>
+                    </li>
+                    <li class="social-network-item"><a href="" class="social-network-link link">
+                        <svg class="network-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg></a> 
+                    </li>
+                    <li class="social-network-item"><a href="" class="social-network-link link">
+                        <svg class="network-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a> 
+                    </li>
+                    <li class="social-network-item"><a href="" class="social-network-link link">
+                        <svg class="network-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg></a> 
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -197,5 +248,6 @@
                 </form>
         </div>
     </footer>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
