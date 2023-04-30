@@ -524,8 +524,8 @@ img {
 /* =============FOOTER============ */
 
 .end-page {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   max-width: 767px;
   background-color: var(--navy-blue);
   padding: 96px 0;
@@ -1092,11 +1092,12 @@ img {
   
 }
 
-.end-page>.container {
+/* .end-page>.container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: left;
+} */
 
-}
 
 .end-page-content>.logo {
   text-align: left;
@@ -1106,12 +1107,17 @@ img {
   margin-left: 24px;
 }
 
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-form-wrap {
   display: flex;
 }
 
 .footer-form-header {
-  /* text-align: left; */
+  text-align: left;
 }
 
 .footer-input {
