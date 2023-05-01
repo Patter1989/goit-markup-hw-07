@@ -118,6 +118,11 @@ img {
   display: none;
 }
 
+.mobile-nav-link:active,
+.main-nav-link:active {
+  color: var(--ocean);
+}
+
 .mobile-menu-btn {
   margin-left: auto;
   border: none;
@@ -180,9 +185,6 @@ img {
   transition: color var(--anim);
 }
 
-.current {
-  color: var(--ocean);
-}
 
 .mobile-contact-us {
   margin-bottom: 48px;
@@ -981,7 +983,6 @@ margin-bottom: 72px;
 
 .mark {
   position: relative;
-  color: var(--ocean);
 }
 
 .mark::after {
