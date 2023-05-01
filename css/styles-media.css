@@ -216,8 +216,7 @@ img {
 
 .mobile-network-list {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 42px;
+  gap: 24px;
 }
 
 /* =============/HEADER============ */
@@ -266,6 +265,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  max-width: 320px;
 }
 
 .main-btn {
@@ -546,10 +546,13 @@ img {
   text-align: center;
 }
 
+.end-page-content {
+margin-bottom: 72px;
+}
+
 .footer-text {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
   width: 268px;
 }
 
@@ -670,6 +673,10 @@ img {
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
+    width: 95%;
+    max-width: 392px;
+    max-height: 586px;
+    overflow: scroll;
 }
 
 .backdrop.is-hidden .modal {
@@ -856,6 +863,10 @@ img {
   font-size: 36px;
 }
 
+.mobile-network-list {
+  gap: 56px;
+}
+
 /* =============HERO============ */
 
   .hero {
@@ -876,6 +887,10 @@ img {
           url("../images/oficce-people-mob2x.jpg");
       }
     }
+
+.main-header {
+  max-width: 496px;
+}
 
 /* =============HERO============ */
 
@@ -904,6 +919,11 @@ img {
 
 /* =============FOOTER============ */
 
+.modal {
+max-width: 428px;
+  max-height: 796px;
+  overflow: visible;
+}
 
 
 
@@ -995,9 +1015,9 @@ img {
   /* =============HERO============ */
 
   .hero {
-    max-width: 100vw;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
@@ -1018,6 +1038,11 @@ img {
 
   .block-hero {
     text-align: center;
+  }
+
+  .main-header{
+    font-size: 56px;
+    line-height: 1.07;
   }
 
   /* =============HERO============ */
@@ -1095,6 +1120,9 @@ img {
   padding: 96px 108px;
   
 }
+
+
+
 
 /* .end-page>.container {
   display: flex;
@@ -1225,8 +1253,9 @@ align-items: center;
 /* =============HERO============ */
 
 .hero {
-  max-width: 100vw;
+  max-width: 1440px;
   height: 600px;
+  padding: 188px 0;
 }
 
 .main-header {
@@ -1262,6 +1291,10 @@ align-items: center;
   text-align: left;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.menu-items-text {
+  font-weight: 400px;
 }
 
 .menu-items-features {
@@ -1338,9 +1371,11 @@ align-items: center;
   flex-wrap: nowrap;
   margin: 0;
 }
+.end-page-content {
+  margin-bottom: 0;
+}
 
 .footer-text{
-  margin-bottom: 0;
   max-width: 264px;
 }
 .footer-form {
