@@ -674,10 +674,10 @@ margin-bottom: 72px;
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
-    width: 95%;
-    max-width: 392px;
-    max-height: 586px;
-    overflow: scroll;
+  width: 95%;
+  max-width: 392px;
+  max-height: 586px;
+  overflow: scroll;
 }
 
 .backdrop.is-hidden .modal {
@@ -916,15 +916,18 @@ margin-bottom: 72px;
     max-width: 398px;
     
   }
+
+
+    .modal {
+      max-width: 428px;
+      max-height: 796px;
+      overflow: visible;
+    }
 }
 
 /* =============FOOTER============ */
 
-.modal {
-max-width: 428px;
-  max-height: 796px;
-  overflow: visible;
-}
+
 
 
 
