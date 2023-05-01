@@ -84,6 +84,7 @@ img {
 /* =============HEADER============ */
 
 .top-header {
+  margin: 0 auto;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -940,6 +941,10 @@ max-width: 428px;
 
   /* =============/HEADER============ */
 
+.top-header {
+  max-width: 768px;
+}
+
 .header-container {
   padding: 0;
 }
@@ -1184,6 +1189,9 @@ max-width: 428px;
   /* =============COMPONENTS============ */
 
   /* =============/HEADER============ */
+.top-header {
+  max-width: 1440px;
+}
   
 .header-container {
   display: flex;
@@ -1329,7 +1337,8 @@ align-items: center;
   /* =============OUR TEAM============ */
 
 .team {
-  max-width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .our-team-list {
@@ -1358,7 +1367,7 @@ align-items: center;
   /* =============FOOTER============ */
 
 .end-page {
-  max-width: 100vw;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 100px;
 }
